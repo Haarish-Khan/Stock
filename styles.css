@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.border-top{
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+
+}
+.nav{
+    background-color: rgba(13, 110, 253, 1);
+    padding: 10px;
+    position: fixed;
+ 
+    width: 100%;
+    z-index: 2;
+    
+    
+}
+/* .men{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+} */
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+
+ 
+}
+.nav h2{
+    flex-basis: 50%;
+  
+}
+
+.usericon{
+    flex-basis: 50%;
+    text-align: right;
+  
+   
+}
+.button{
+    border-radius: 25px;
+    width: 110px;
+}
+.usericon i{
+ 
+    font-size: 30px;
+   
+    
+}
+.reward-container {
+    background: linear-gradient(to right, #f1b658 , #ffdb61);
+    padding: 30px 50px ;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  margin-top: 65px;
+  overflow-y: hidden;
+
+}
+.box{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8), 0px -7px 1px 1px rgba(13, 110, 253, 1) ; 
+    border-radius: 15px;
+}
+.base-plan{
+    font-weight: 600;
+}
+.box1{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8), 0px -7px 1px 1px rgba(245, 210, 0, 0.8) ; 
+    border-radius: 15px;
+}
+
+.coin-box{
+    background: #fff;
+    /* flex-basis: 50%; */ 
+    width: 68%;
+    padding: 15px 15px;
+    border-radius: 22px;
+    height: 85px;
+}
+
+.reward{
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    /* margin-top: 10px; */
+}
+
+.one{
+    position: absolute;
+    bottom: -16px;
+    right: -35px;
+    overflow-x: hidden;
+   
+}
+.payment{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 0;
+}
